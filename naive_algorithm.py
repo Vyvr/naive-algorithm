@@ -7,7 +7,7 @@ def matchesAt(text, index, pattern):
             return False
     return True
 
-# ----Adds to array indexes where pattern matches text
+# ----Adds to array indexes where pattern matches text----#
 
 
 def report(index, matchedIndexes):
@@ -17,6 +17,10 @@ def report(index, matchedIndexes):
 def main():
     text = 'acbabadababbdbabac'
     pattern = 'babac'
+    # text = 'ABABBCAACCAWACACAWCCA'
+    # pattern = 'BCAACCA'
+    # text = 'abbababbabababb'
+    # pattern = 'abb'
     matchedIndexes = []
     for i in range(0, (len(text) - len(pattern)) + 1):
         if matchesAt(text, i, pattern):
