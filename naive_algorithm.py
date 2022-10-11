@@ -1,8 +1,3 @@
-
-
-from operator import truediv
-
-
 # ----Finds if pattern matches text, starting from index----#
 def matchesAt(text, index, pattern):
     if len(text) < len(pattern):
