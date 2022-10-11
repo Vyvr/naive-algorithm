@@ -8,8 +8,6 @@ def matchesAt(text, index, pattern):
     return True
 
 # ----Adds to array indexes where pattern matches text----#
-
-
 def report(index, matchedIndexes):
     matchedIndexes.append(index)
 
