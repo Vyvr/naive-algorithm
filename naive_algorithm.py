@@ -19,6 +19,9 @@ def main():
     # pattern = 'BCAACCA'
     # text = 'abbababbabababb'
     # pattern = 'abb'
+    # text = 'ababcabcabababd'
+    # pattern = 'ababd'
+
     matchedIndexes = []
     for i in range(0, (len(text) - len(pattern)) + 1):
         if matchesAt(text, i, pattern):
